@@ -10,7 +10,7 @@ class grails::1_3_7 {
     before => Package['boxen/brews/1_3_7'],
   }
 
-  package { 'boxen/brews/grails':
-    ensure => '1_3_7'
+  package { 'boxen/brews/1_3_7':
+    ensure => '1.3.7'
   }
 }
