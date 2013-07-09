@@ -7,10 +7,10 @@ class grails::1_3_7 {
   include homebrew
 
   homebrew::formula { 'grails':
-    before => Package['boxen/brews/v1_3_7'],
+    before => Package['boxen/brews/1_3_7'],
   }
 
   package { 'boxen/brews/grails':
-    ensure => '1.3.7'
+    ensure => '1_3_7'
   }
 }
